@@ -1,0 +1,3 @@
+import aI_fall2018_p2.search.hill_climbing
+import aI_fall2018_p2.search.search
+import aI_fall2018_p2.search.simple_hill_climbing
