@@ -1,6 +1,6 @@
 import queue as Q
 
-from p1_search import Search
+from aI_fall2018_p1.search.p1_search import Search
 
 
 class GBFSSearch(Search):

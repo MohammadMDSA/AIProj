@@ -25,11 +25,14 @@ class Search:
             self.graph[name] = []
         return self.graph[name]
 
-    def add_edge(self, a, b, a_to_b=0, b_to_a=0):
+    def add_edge(self, a, b, a_to_b=0, b_to_a=None):
         if not (a in self.graph):
             self.add_node(a)
         if not (b in self.graph):
             self.add_node(b)
+
+        if b_to_a is None:
+            b_to_a = a_to_b
 
         self.graph[b].append((a, b_to_a))
         self.graph[a].append((b, a_to_b))
