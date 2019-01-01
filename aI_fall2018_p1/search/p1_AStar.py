@@ -18,7 +18,7 @@ class AStarSearch(Search):
         cost_so_far[start] = 0
 
         while not frontier.empty():
-            current = frontier.get()
+            _,current = frontier.get()
 
             if current == goal:
                 break
