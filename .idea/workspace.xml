@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2e55ef6-6584-40b7-9c5b-603e50f66e9c" name="Default Changelist" comment="" />
+    <list default="true" id="b2e55ef6-6584-40b7-9c5b-603e50f66e9c" name="Default Changelist" comment="Added">
+      <change afterPath="$PROJECT_DIR$/aI_fall2018_p2/problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aI_fall2018_p2/search/genetic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/simulated_annealing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aI_fall2018_p1/search/p1_GBFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/aI_fall2018_p1/search/p1_GBFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aI_fall2018_p2/search/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/aI_fall2018_p2/search/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aI_fall2018_p2/search/first_choice_hill_climbing.py" beforeDir="false" afterPath="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/first_choice_hill_climbing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing.py" beforeDir="false" afterPath="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/hill_climbing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aI_fall2018_p2/search/random_restart_hill_climbing.py" beforeDir="false" afterPath="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/random_restart_hill_climbing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aI_fall2018_p2/search/simple_hill_climbing.py" beforeDir="false" afterPath="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/simple_hill_climbing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aI_fall2018_p2/search/stochastic_hill_climbing.py" beforeDir="false" afterPath="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/stochastic_hill_climbing.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,57 +24,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p1_BFS.py">
+        <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/genetic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="42" column="21" lean-forward="true" selection-start-line="32" selection-end-line="42" selection-end-column="21" />
+            <state relative-caret-position="459">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding>
-                <marker date="1546241045373" expanded="true" signature="125:126" ph="..." />
-                <marker date="1546241045373" expanded="true" signature="125:130" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p1_DFS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2669">
-              <caret line="157" selection-start-line="157" selection-end-line="158" />
-              <folding>
-                <marker date="1546241121440" expanded="true" signature="166:276" ph="..." />
-                <marker date="1546241121440" expanded="true" signature="1713:2419" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p1_search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-              <folding>
-                <marker date="1546246063713" expanded="true" signature="920:925" ph="..." />
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/.gitignore">
+        <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/simulated_annealing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="544">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p1_GBFS.py">
+        <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/problem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="442">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aI_fall2018_p1/search/p1_GBFS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -70,25 +72,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p1_UCS.py">
+        <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/hill_climbing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="12" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p1_AStar.py">
+        <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/simple_hill_climbing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aI_fall2018_p1/search/p1_UCS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="41" column="21" lean-forward="true" selection-start-line="31" selection-end-line="41" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -106,7 +117,15 @@
     <findStrings>
       <find>for</find>
       <find>print</find>
+      <find>GA</find>
+      <find>GA.</find>
     </findStrings>
+    <replaceStrings>
+      <replace>self.</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -120,6 +139,35 @@
         <option value="$PROJECT_DIR$/p1_AStar.py" />
         <option value="$PROJECT_DIR$/p1_search.py" />
         <option value="$PROJECT_DIR$/venv/.gitignore" />
+        <option value="$PROJECT_DIR$/AI-Fall2018-P1/search/__init__.py" />
+        <option value="$PROJECT_DIR$/AI-Fall2018-P1/problem.py" />
+        <option value="$PROJECT_DIR$/AI-Fall2018-P1/search/p1_DFS.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p1/search/p1_BFS.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p1/search/__init__.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p1/search/p1_search.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p1/search/p1_DFS.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p1/__init__.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p1/search/p1_UCS.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p1/search/p1_AStar.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p1/problem.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/local_search.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/simple_hill_climbing.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/random_restart_hill_climbing.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/first_choice_hill_climbing.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/stochastic_hill_climbing.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/search.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/__init__.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/hill_climbing.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/first_choice_hill_climbing.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/random_restart_hill_climbing.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/simple_hill_climbing.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/stochastic_hill_climbing.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p1/search/p1_GBFS.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/problem.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/genetic.py" />
+        <option value="$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/simulated_annealing.py" />
       </list>
     </option>
   </component>
@@ -130,15 +178,18 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1367" />
-    <option name="width" value="1369" />
+    <option name="width" value="1368" />
     <option name="height" value="1774" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,33 +199,63 @@
             </path>
             <path>
               <item name="AI_P1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="aI_fall2018_p1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AI_P1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (untitled) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="aI_fall2018_p1" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AI_P1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (untitled) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="aI_fall2018_p2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI_P1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="aI_fall2018_p2" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI_P1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="aI_fall2018_p2" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="hill_climbing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI_P1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI_P1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="new&#9;ACTION&#9;NewGroup" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aI_fall2018_p1/problem.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sami\PycharmProjects\untitled\aI_fall2018_p2\search\hill_climbing" />
+      <recent name="C:\Users\Sami\PycharmProjects\untitled" />
+      <recent name="C:\Users\Sami\PycharmProjects\untitled\AI-Fall2018-P1\search" />
+      <recent name="C:\Users\Sami\PycharmProjects\untitled\AI-Fall2018-P1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -270,7 +351,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="p1_DFS" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="problem" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AI_P1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,12 +359,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Sami\PycharmProjects\untitled\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aI_fall2018_p1" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p1_DFS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aI_fall2018_p1/problem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -397,13 +478,56 @@
       <option name="presentableId" value="Default" />
       <updated>1545630015939</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added gitignore">
+      <created>1546327216767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546327216767</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Restructured project">
+      <created>1546327265523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546327265523</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added first problem">
+      <created>1546328848644</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546328848644</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Minor chages">
+      <created>1546328861994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546328861994</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Minor changes">
+      <created>1546344042436</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546344042436</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added HillClimbing">
+      <created>1546344282446</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546344282446</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1094" y="0" width="1095" height="1419" extended-state="0" />
+    <frame x="0" y="0" width="1094" height="1419" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24952741" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24976349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -414,10 +538,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32944834" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32478634" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32478634" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -429,19 +553,33 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added gitignore" />
+    <MESSAGE value="Restructured project" />
+    <MESSAGE value="Added first problem" />
+    <MESSAGE value="Minor chages" />
+    <MESSAGE value="Minor changes" />
+    <MESSAGE value="Added HillClimbing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HillClimbing" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aI_fall2018_p1/search/p1_DFS.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aI_fall2018_p1/search/p1_DFS.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-917986750/_collections.py" />
-    <entry file="file://$PROJECT_DIR$/p1_DFS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2669">
-          <caret line="157" selection-start-line="157" selection-end-line="158" />
-          <folding>
-            <marker date="1546241121440" expanded="true" signature="166:276" ph="..." />
-            <marker date="1546241121440" expanded="true" signature="1713:2419" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-917986750/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -456,61 +594,192 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p1_BFS.py">
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p1/search/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="42" column="21" lean-forward="true" selection-start-line="32" selection-end-line="42" selection-end-column="21" />
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p1/search/p1_DFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
           <folding>
-            <marker date="1546241045373" expanded="true" signature="125:126" ph="..." />
-            <marker date="1546241045373" expanded="true" signature="125:130" ph="..." />
+            <marker date="1546327444251" expanded="true" signature="187:297" ph="..." />
+            <marker date="1546327444251" expanded="true" signature="1734:2440" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p1_UCS.py">
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p1/problem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="433">
+          <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p1_GBFS.py">
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p1/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p1/search/p1_AStar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p1/search/p1_BFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1546326027157" expanded="true" signature="147:148" ph="..." />
+            <marker date="1546326027157" expanded="true" signature="147:152" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="249" column="8" selection-start-line="249" selection-start-column="8" selection-end-line="249" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/first_choice_hill_climbing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/stochastic_hill_climbing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p1/search/p1_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1546326268687" expanded="true" signature="979:984" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p1/search/p1_UCS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="31" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p1/search/p1_GBFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p1_AStar.py">
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/problem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="442">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p1_search.py">
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/genetic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="459">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
-            <marker date="1546246063713" expanded="true" signature="920:925" ph="..." />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/.gitignore">
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/random_restart_hill_climbing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/hill_climbing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/simple_hill_climbing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aI_fall2018_p2/search/hill_climbing/simulated_annealing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

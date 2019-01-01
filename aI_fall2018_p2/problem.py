@@ -1,0 +1,27 @@
+from aI_fall2018_p2.search.genetic import GeneticAlgorithm
+from aI_fall2018_p2.search.search import Search
+
+search = Search()
+search.add_edge(1, 3)
+search.add_edge(1, 4)
+search.add_edge(1, 9)
+search.add_edge(1, 11)
+search.add_edge(2, 3)
+search.add_edge(2, 6)
+search.add_edge(2, 5)
+search.add_edge(2, 11)
+search.add_edge(3, 7)
+search.add_edge(4, 5)
+search.add_edge(4, 7)
+search.add_edge(5, 8)
+search.add_edge(5, 9)
+search.add_edge(6, 9)
+search.add_edge(6, 7)
+search.add_edge(7, 8)
+search.add_edge(7, 10)
+search.add_edge(8, 11)
+search.add_edge(9, 10)
+search.add_edge(10, 11)
+
+genetic = GeneticAlgorithm(search.graph)
+genetic.run()

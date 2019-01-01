@@ -1,6 +1,6 @@
 import types
 
-from aI_fall2018_p2.search.hill_climbing import HillClimbing
+from aI_fall2018_p2.search.hill_climbing.hill_climbing import HillClimbing
 
 
 class SimpleHillClimbing(HillClimbing):

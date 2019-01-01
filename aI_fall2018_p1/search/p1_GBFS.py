@@ -10,13 +10,12 @@ class GBFSSearch(Search):
 
     def search(self, start, goal):
         visited = {}
+        parent = {}
         for node in self.graph:
             visited[node] = False
         final_path = []
 
-        pq = Q.PriorityQueue()
-        pq.get()
-
+        queue = Q.PriorityQueue()
         def greedyBFSUtil(v, visited, final_path, dest, gooal):
             if gooal == 1:
                 return gooal
@@ -26,7 +25,7 @@ class GBFSSearch(Search):
                 gooal = 1
             else:
                 pq_list = []
-                pq, size = getPriorityQueue(G[v])
+                pq, size = queue.get()
                 for i in range(size):
                     pq_list.append(pq.get().description)
                 for i in pq_list:
@@ -37,3 +36,15 @@ class GBFSSearch(Search):
             return gooal
 
         gooal = greedyBFSUtil(start, visited, final_path, goal, 0)
+
+
+        result = []
+        current = goal
+        result.append(goal)
+        while not current == start:
+            current = parent[current]
+
+            result.append(current)
+
+        result.reverse()
+        return result

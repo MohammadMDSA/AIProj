@@ -1,6 +1,6 @@
 import types
 
-from aI_fall2018_p1.search.p1_search import Search
+from aI_fall2018_p2.search.search import Search
 
 
 class HillClimbing(Search):
